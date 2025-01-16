@@ -1,0 +1,37 @@
+
+.terms-heading{
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.terms-content{
+    text-align: justify;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.term-subheading{
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .terms-heading{
+        font-size: 20px;
+    }
+
+    .term-subheading{
+        font-size: 16px;
+    }
+
+    .term-subheading + p{
+        font-size: 14px;
+    }
+
+    .terms-content{
+        width: 90vw;
+    }
+}

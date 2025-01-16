@@ -1,37 +1,38 @@
-
-.terms-heading{
+.terms-heading {
     font-weight: 700;
     margin-top: 120px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.terms-content{
+.terms-content {
     text-align: justify;
     width: 80vw;
     margin: auto;
     margin-bottom: 80px;
 }
 
-.term-subheading{
+.term-subheading {
     font-weight: 700;
     margin-top: 30px;
+    color: #2f5072 !important
 }
 
+
 @media (max-width: 600px) {
-    .terms-heading{
+    .terms-heading {
         font-size: 20px;
     }
 
-    .term-subheading{
+    .term-subheading {
         font-size: 16px;
     }
 
-    .term-subheading + p{
+    .term-subheading+p {
         font-size: 14px;
     }
 
-    .terms-content{
+    .terms-content {
         width: 90vw;
     }
 }

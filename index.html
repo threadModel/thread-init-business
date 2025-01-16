@@ -2,119 +2,160 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Orbit - Linker</title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet" />
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-
+  * Template Name: Nova
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body class="page-index">
-  <!-- ======= Header ======= -->
+<body class="index-page">
+
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt="" /> -->
-        <h1 class="d-flex align-items-center">Orbit-Linker</h1>
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Orbit-Linker</h1>
       </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-      <nav id="navbar" class="navbar">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <!-- <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li> -->
+          <li><a href="index.html" class="active">Home<br></a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Equipment Rental</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <!-- .navbar -->
+
     </div>
   </header>
-  <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-4">
-          <h2 data-aos="fade-up">Focus On What Matters</h2>
-          <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>
-              Take your business online and elevate your existing website with our expert solutions. Contact us today to
-              create/unlock the best version of your software!
-            </p>
-          </blockquote>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="/services.html" class="btn-get-started">Get Started</a>
-            <a href="/assets//video/intro.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i
-                class="bi bi-play-circle"></i><span>Watch Video</span></a>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Focus On What Matters</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>Take your business online and elevate your existing website with our expert solutions. Contact us today
+                to create/unlock the best version of your software! </p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="./assets//video/Into.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i
+                  class="bi bi-play-circle"></i><span>Watch
+                  Video</span></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Hero Section -->
 
-  <main id="main">
-    <!-- ======= Why Choose Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Why Choose Us</h2>
-        </div>
+    </section><!-- /Hero Section -->
 
-        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
-          <div class="col-xl-7 slides position-relative">
-            <div class="slides-1 swiper">
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
               <div class="swiper-wrapper">
+
                 <div class="swiper-slide">
                   <div class="item">
                     <h3 class="mb-3">End-to-End Software Solutions</h3>
-                    <h4 class="mb-3">
-                      From Concept to Completion.
-                    </h4>
+                    <h4 class="mb-3"> From Concept to Completion.</h4>
                     <p>
                       We offer comprehensive services tailored to your needs, including software development,
                       maintenance, and AI plugin integration. Our team ensures every project is seamlessly executed,
                       delivering market-ready solutions that align with your goals.
                     </p>
                   </div>
-                </div>
-                <!-- End slide item -->
+                </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
@@ -130,8 +171,7 @@
                       reliable results.
                     </p>
                   </div>
-                </div>
-                <!-- End slide item -->
+                </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
@@ -145,8 +185,7 @@
                       a professional touch.
                     </p>
                   </div>
-                </div>
-                <!-- End slide item -->
+                </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
@@ -161,560 +200,382 @@
                       software performs at its best. With our dedicated team, your business is always in safe hands.
                     </p>
                   </div>
-                </div>
-                <!-- End slide item -->
+                </div><!-- End slide item -->
+
               </div>
               <div class="swiper-pagination"></div>
             </div>
+
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
           </div>
+
         </div>
+
       </div>
-    </section>
-    <!-- End Why Choose Us Section -->
 
-    <!-- ======= Our Services Section ======= -->
-    <section id="services-list" class="services-list">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Our Services</h2>
-        </div>
+    </section><!-- /Why Us Section -->
 
-        <div class="row gy-5">
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-code-slash" style="color: #f57813"></i>
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi-code-slash" style="color: #f57813;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">Custom Software Development</a>
-              </h4>
+              <h4 class="title">Custom Software Development</h4>
               <p class="description">
                 Building tailored solutions to meet your unique business needs.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0">
-              <!-- <i class="bi bi-card-checklist" style="color: #15a04a"></i> -->
-              <i class="bi bi-gear" style="color: #15a04a"></i>
-
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi-gear" style="color: #15a04a;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">Software Maintenance & Support</a>
-              </h4>
+              <h4 class="title">Software Maintenance & Support</h4>
               <p class="description">
                 Keeping your software running smoothly, always.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-          </div>
-          <!-- End Service Item -->
+          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-cpu" style="color: #d90769"></i>
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi-cpu" style="color: #d90769;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">AI Plugin Integration</a>
-              </h4>
+              <h4 class="title">AI Plugin Integration</h4>
               <p class="description">
                 Empowering your tools with the future of intelligence.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-          </div>
-          <!-- End Service Item -->
+          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-globe" style="color: #15bfbc"></i>
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi-globe" style="color: #15bfbc;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">Market-Ready Website Solutions</a>
-              </h4>
+              <h4 class="title">Market-Ready Website Solutions</h4>
               <p class="description">
                 Launch your online presence in just one step.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-          </div>
-          <!-- End Service Item -->
+          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-people" style="color: #f5cf13"></i>
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi bi-people" style="color: #f5cf13;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">Team Augmentation</a>
-              </h4>
+              <h4 class="title">Team Augmentation</h4>
               <p class="description">
                 Improve your team with our industry experts.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-          </div>
-          <!-- End Service Item -->
+          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0">
-              <i class="bi bi-cloud-upload" style="color: #007bff"></i>
-            </div>
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud-upload" style="color: #1335f5;"></i></div>
             <div>
-              <h4 class="title">
-                <a href="#" class="stretched-link">Hosting & Deployment Services</a>
-              </h4>
+              <h4 class="title">Hosting & Deployment Services</h4>
               <p class="description">
                 Reliable hosting and effortless deployment.
               </p>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Discover how we turn your ideas into reality with expert solutions and a future-focused approach. Let's
+                build something great together!</p>
+              <a class="cta-btn" href="#">Call To Action</a>
             </div>
           </div>
-          <!-- End Service Item -->
         </div>
       </div>
-    </section>
-    <!-- End Our Services Section -->
 
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action" class="call-to-action">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h3>Know More About Us?</h3>
-            <p>
-              Discover how we turn your ideas into reality with expert solutions and a future-focused approach. Let's
-              build something great together!
-            </p>
-            <a class="cta-btn" href="/contact.html">Call To Action</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Call To Action Section -->
+    </section><!-- /Call To Action Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container" data-aos="fade-up">
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
         <div class="row">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Powerful Features of <br />our Business</h3>
+            <h3 class="mb-0">Powerful Features for</h3>
+            <h3>Your Business</h3>
 
             <div class="row gy-4">
+
               <div class="col-md-6">
                 <div class="icon-list d-flex">
-                  <i class="ri-search-line" style="color: #ffbb2c"></i>
+                  <i class="bi bi-eye" style="color: #ff8b2c;"></i>
                   <span>SEO-Optimized Solutions</span>
                 </div>
-              </div>
-              <!-- End Icon List Item-->
+              </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
-                  <i class="ri-plug-line" style="color: #5578ff"></i>
+                  <i class="bi bi-plugin" style="color: #5578ff;"></i>
                   <span>Seamless Integrations</span>
                 </div>
-              </div>
-              <!-- End Icon List Item-->
+              </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
-                  <i class="ri-tools-line" style="color: #e80368"></i>
+                  <i class="bi bi-sliders" style="color: #e80368;"></i>
                   <span>Customizable Features</span>
                 </div>
-              </div>
-              <!-- End Icon List Item-->
+              </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
-                  <i class="ri-stack-line" style="color: #e361ff"></i>
+                  <i class="bi bi-stack" style="color: #ffa76e;"></i>
                   <span>User-Centric Design</span>
                 </div>
-              </div>
-              <!-- End Icon List Item-->
+              </div><!-- End Icon List Item-->
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
-                  <i class="ri-line-chart-line" style="color: #47aeff"></i>
-                  <span>Comprehensive Analytics</span>
-                </div>
-              </div>
-              <!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-rocket-line" style="color: #ffa76e"></i>
-                  <span>Stay Ahead with Innovation</span>
-                </div>
-              </div>
-              <!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-message-2-line" style="color: #11dbcf"></i>
-                  <span>24/7 Customer Support</span>
-                </div>
-              </div>
-              <!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-base-station-line" style="color: #ff5828"></i>
+                  <i class="bi bi-broadcast" style="color: #11dbcf;"></i>
                   <span>Scalable Platforms</span>
                 </div>
-              </div>
-              <!-- End Icon List Item-->
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-graph-up" style="color: #47aeff;"></i>
+                  <span>Comprehensive Analytics</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-rocket" style="color: #29cc61;"></i>
+                  <span>Stay Ahead with Innovation</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-headset" style="color: #ff5828;"></i>
+                  <span>24/7 Customer Support</span>
+                </div>
+              </div><!-- End Icon List Item-->
             </div>
           </div>
-          <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
             <div class="phone-wrap">
-              <img src="assets/img/iphone.png" alt="Image" class="img-fluid" />
+              <img src="assets/img/iphone.png" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
+
       </div>
 
       <div class="details">
-        <div class="container" data-aos="fade-up" data-aos-delay="300">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h4>Embark on Your Digital <br />Journey</h4>
-              <p>
-                Take the first step toward transforming your business with our innovative solutions. Our dedicated team
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h4>Embark on Your <br>Digital
+                Journey</h4>
+              <p>Take the first step toward transforming your business with our innovative solutions. Our dedicated team
                 will help you create, launch, and grow your digital presence seamlessly. Start your journey with us
-                today!
-              </p>
-              <a href="/services.html" class="btn-get-started">Get Started</a>
+                today!</p>
+              <a href="#about" class="btn-get-started">Get Started</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Features Section -->
 
-    <!-- ======= Recent Testimonial Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="section-header">
-        <h2>Past Works</h2>
-      </div>
-      <div class="container" data-aos="fade-up">
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-          data-portfolio-sort="original-order">
-          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul>
-          <!-- End Portfolio Filters -->
+    </section><!-- /Features Section -->
 
-          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Blog Posts</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, December 12</span>
+                <span class="post-author"> / Julia Parker</span>
               </div>
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+              <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa
+                est officiis. Modi qui magni est...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
             </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Books 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
           </div>
-          <!-- End Portfolio Container -->
-        </div>
-      </div>
-    </section>
-    <!-- End Portfolio Section -->
 
-    <!-- ======= Recent Testimonial Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Testimonials</h2>
-        </div>
-
-        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec
-                  porttitora entum suscipit rhoncus. Accusantium quam,
-                  ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                  risus at semper.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                </div>
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mario Douglas</span>
               </div>
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+              <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam
+                omnis doloribus...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
             </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse
-                  labore quem cillum quid cillum eram malis quorum velit fore
-                  eram velit sunt aliqua noster fugiat irure amet legam anim
-                  culpa.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim
-                  sint quorum nulla quem veniam duis minim tempor labore quem
-                  eram duis noster aute amet eram fore quis sint minim.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                </div>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                  multos export minim fugiat minim velit minim dolor enim duis
-                  veniam ipsum anim magna sunt elit fore quem dolore labore
-                  illum veniam.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                </div>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure
-                  aliqua veniam tempor noster veniam enim culpa labore duis
-                  sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                  fore nisi cillum quid.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                </div>
-              </div>
-            </div>
-            <!-- End testimonial item -->
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / Lisa Hunter</span>
+              </div>
+              <h3 class="post-title">Quia assumenda est et veritati</h3>
+              <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae
+                consectetur magnam...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, Sep 16</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Pariatur quia facilis similique deleniti</h3>
+              <p>Et consequatur eveniet nam voluptas commodi cumque ea est ex. Aut quis omnis sint ipsum earum quia
+                eligendi...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </section>
-    <!-- End Recent Blog Posts Section -->
+
+    </section><!-- /Recent Posts Section -->
+
   </main>
-  <!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="footer-content">
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
+          <div class="col-lg-5 col-md-12 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span>Orbit-Linker</span>
+              <span class="sitename">Orbit-Linker</span>
             </a>
-            <p>
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-              nada terra videa magna derita valies darta donna mare fermentum
-              iaculis eu non diam phasellus.
-            </p>
-            <div class="social-links d-flex mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+              darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
-              <li>
-                <i class="bi bi-dash"></i> <a href="#">Terms of service</a>
-              </li>
-              <li>
-                <i class="bi bi-dash"></i> <a href="#">Privacy policy</a>
-              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
-              <li>
-                <i class="bi bi-dash"></i> <a href="#">Web Development</a>
-              </li>
-              <li>
-                <i class="bi bi-dash"></i> <a href="#">Product Management</a>
-              </li>
-              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
-              <li>
-                <i class="bi bi-dash"></i> <a href="#">Graphic Design</a>
-              </li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br />
-              New Delhi, Delhi 535022<br />
-              India <br /><br />
-              <strong>Phone:</strong> +91 876012345<br />
-              <strong>Email:</strong> info@example.com<br />
-            </p>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p>United States</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
+
         </div>
       </div>
     </div>
 
-    <div class="footer-legal">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Orbit-Linker</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by
-          <a href="https://prince00raj.netlify.app/">Prince Raj</a>
-        </div>
-      </div>
+    <div class="container copyright text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Nova</strong> <span>All Rights Reserved</span></p>
     </div>
+
   </footer>
-  <!-- End Footer --><!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

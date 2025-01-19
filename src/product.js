@@ -25,11 +25,13 @@ const renderPortfoliPage = () => {
   portfolio.forEach(item => {
     const htmlContent = `
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${item.details.type}">
+        <div>
           <img src="assets/img/portfolio/${item.details.banners[0]}" class="img-fluid" alt="">
+          </div>
           <div class="portfolio-info">
             <h4>${item.details.title}</h4>
             <p>${item.details.punchline}</p>
-            <a href="${item.details.banners[0]}" title="${item.details.title}"
+            <a href="assets/img/portfolio/${item.details.banners[0]}" title="${item.details.title}"
                data-gallery="portfolio-gallery-app" class="glightbox preview-link">
               <i class="bi bi-zoom-in"></i>
             </a>

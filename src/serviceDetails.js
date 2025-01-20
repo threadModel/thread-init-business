@@ -31,11 +31,11 @@ const ServiceData = [
     {
         name: "maintaines&SoftwareSolution",
         title: "Maintaines & Software Solution",
-        banner: "assets/img/services/services.jpg",
+        banner: "assets/video/services/maintain.mp4",
         pdf: "#",
         doc: "/",
         content: `
-          <img src="{BANNER}" alt="Service Banner" class="img-fluid services-img">
+        <video src="{BANNER}" autoplay muted loop class="img-fluid services-img"></video>
           <h3>Comprehensive Maintenance & Software Solutions for Your Business</h3>
             <p>
             Ensure the continued performance and security of your software with our expert maintenance and support services. We provide tailored solutions that keep your applications running smoothly while minimizing downtime and maximizing efficiency.
@@ -144,11 +144,11 @@ const ServiceData = [
     {
         name: "teamAugmentation",
         title: "Team Augmentation",
-        banner: "assets/img/services/services.jpg",
+        banner: "assets/video/services/team.mp4",
         pdf: "#",
         doc: "/",
         content: `
-            <img src="{BANNER}" alt="Service Banner" class="img-fluid services-img">
+            <video src="{BANNER}" autoplay muted loop class="img-fluid services-img"></video>
             <h3>Empower Your Projects with Expert Team Augmentation</h3>
             <p>
             At Orbit Linker, we offer team augmentation services to help you scale your business with highly skilled professionals. Whether you need extra hands for short-term projects or long-term expertise to support your ongoing operations, our team is here to fill the gaps.

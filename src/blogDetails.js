@@ -194,8 +194,43 @@ const renderBlogs = () => {
     BlogLists.innerHTML = blogHTML;
 };
 
+const renderHomeBlogPage = () => {
+    const renderHomepost = document.getElementById("renderHomepost");
+    let htmlContent = '';
+
+    blogs.forEach(blog => {
+        htmlContent += `
+            <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="post-box">
+                    <div class="post-img">
+                        <img src="${blog.postBanner}" class="img-fluid" alt="">
+                    </div>
+                    <div class="meta">
+                        <span class="post-date">
+                            ${new Date(blog.publishDate).toLocaleDateString("en-US", {
+            weekday: 'short',
+            month: 'short',
+            day: '2-digit',
+            year: 'numeric'
+        })}
+                        </span>
+                        <span class="post-author"> / ${blog.authoDetails.name}</span>
+                    </div>
+                    <h3 class="post-title textOverFlow">${blog.title}</h3>
+                    <p class="textOverFlowPara">${blog.sortDesc}</p>
+                    <a href="blog-details.html?${blog.name}" class="readmore stretched-link">
+                        <span>Read More</span><i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        `;
+    });
+
+    renderHomepost.innerHTML = htmlContent;
+}
+
 if (window.location.pathname == '/index.html') {
-    renderPortfoliPage()
+    renderHomeBlogPage()
 } else if (window.location.pathname == '/blog.html') {
     renderBlogs();
 } else {

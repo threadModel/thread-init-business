@@ -1,7 +1,7 @@
 const blogs = [
     {
         name: "blog1",
-        tag: "AI",
+        tag: "AI (Artificial Intelligence)",
         postBanner: "assets/img/blog/blog-1.jpg",
         title: "Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia",
         publishDate: "Jan 1, 2022",
@@ -78,6 +78,7 @@ const blogs = [
 const renderBlogDetails = (queryPrompt) => {
     const blog = blogs.find(p => p.name === queryPrompt);
 
+
     if (!blog) {
         window.location.href = "/blog.html";
         return;
@@ -91,6 +92,7 @@ const renderBlogDetails = (queryPrompt) => {
     const articleContent = document.getElementById("articleContent");
 
     if (banner) {
+
         banner.setAttribute("src", blog.postBanner);
     }
 
@@ -113,6 +115,7 @@ const renderBlogDetails = (queryPrompt) => {
     if (blogAuthorDetails) {
         const { name, socialMedia, bio, profile } = blog.authoDetails;
 
+
         const socialLinks = Object.entries(socialMedia)
             .map(([key, url]) => url
                 ? `<a href="${url}" target="_blank"><i class="bi bi-${key}"></i></a>`
@@ -129,30 +132,20 @@ const renderBlogDetails = (queryPrompt) => {
             </div>
         `;
     }
-    renderRecentPostDetailsPage();
+    renderRecentPostDetailsPage(queryPrompt);
 };
 
-const renderRecentPostDetailsPage = () => {
+const renderRecentPostDetailsPage = (queryPrompt) => {
     const recentPostsContainer = document.getElementById("recent-posts");
     if (recentPostsContainer) {
-        const sortedBlogs = blogs.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+        const sortedBlogs = blogs.filter(blog => blog.name !== queryPrompt).sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
         const recentPostList = sortedBlogs.slice(0, 6)
             .map(blog => `
                 <div class="post-item">
                     <img src="${blog.postBanner}" alt="${blog.title}" class="flex-shrink-0 img-fluid">
                     <div>
-                        <h4 style="
-                            font-size: 1rem;
-                            font-weight: bold;
-                            line-height: 1.4;
-                            display: -webkit-box;
-                            -webkit-line-clamp: 2;
-                            -webkit-box-orient: vertical;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            margin: 0;
-                        ">
-                            <a href="blog-details.html?name=${blog.name}" title="${blog.title}">${blog.title}</a>
+                        <h4 class="textOverFlow">
+                            <a href="blog-details.html?${blog.name}" title="${blog.title}">${blog.title}</a>
                         </h4>
                         <time datetime="${blog.publishDate}" style="font-size: 0.875rem; color: #888;">${blog.publishDate}</time>
                     </div>
@@ -168,15 +161,45 @@ const renderRecentPostDetailsPage = () => {
 
 }
 
-const renderHome = () => {
+const renderBlogs = () => {
+    const sortedBlogs = blogs.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+    const BlogLists = document.getElementById("BlogLists");
 
-}
+    let blogHTML = '';
+
+    sortedBlogs.forEach(blog => {
+        blogHTML += `
+        <div class="col-lg-4">
+            <article>
+                <div class="post-img">
+                    <img src="${blog.postBanner}" alt="" class="img-fluid">
+                </div>
+                <p class="post-category">${blog.tag}</p>
+                <h2 class="title textOverFlow">
+                    <a href="blog-details.html?${blog.name}">${blog.title}</a>
+                </h2>
+                <div class="d-flex align-items-center">
+                    <img src="${blog.authoDetails.profile}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                    <div class="post-meta">
+                        <p class="post-author">${blog.authoDetails.name}</p>
+                        <p class="post-date">
+                            <time datetime="${new Date(blog.publishDate).toISOString()}">${blog.publishDate}</time>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>`;
+    });
+
+    BlogLists.innerHTML = blogHTML;
+};
+
 if (window.location.pathname == '/index.html') {
     renderPortfoliPage()
 } else if (window.location.pathname == '/blog.html') {
-    renderHome();
+    renderBlogs();
 } else {
     const fullUrl = window.location.href;
     const queryString = fullUrl.split('?')[1];
-    renderBlogDetails("blog1");
+    renderBlogDetails(queryString);
 }

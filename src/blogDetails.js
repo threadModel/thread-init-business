@@ -210,8 +210,7 @@ const renderHomeBlogPage = () => {
                             ${new Date(blog.publishDate).toLocaleDateString("en-US", {
             weekday: 'short',
             month: 'short',
-            day: '2-digit',
-            year: 'numeric'
+            day: '2-digit'
         })}
                         </span>
                         <span class="post-author"> / ${blog.authoDetails.name}</span>

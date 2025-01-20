@@ -228,7 +228,7 @@ const renderHomeBlogPage = () => {
     renderHomepost.innerHTML = htmlContent;
 }
 
-if (window.location.pathname == '/index.html') {
+if (window.location.pathname == '/index.html' || window.location.pathname == '/') {
     renderHomeBlogPage()
 } else if (window.location.pathname == '/blog.html') {
     renderBlogs();

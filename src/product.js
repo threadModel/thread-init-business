@@ -112,5 +112,5 @@ if (window.location.pathname == '/portfolio.html') {
 } else {
   const fullUrl = window.location.href;
   const queryString = fullUrl.split('?')[1];
-  renderProductDetails('vic-ecommerce');
+  renderProductDetails(queryString);
 }

@@ -9,13 +9,13 @@ const portfolio = [
         "vic-ecom/vic-ecom3.png"
       ],
       "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "title": "Victoria - My E-Commerce Venture",
+      "desc": "We built and managed a high-performing e-commerce website specializing in clothing and fashion products, providing a seamless shopping experience with a user-friendly interface, secure payment options, and a diverse range of stylish apparel and accessories. By optimizing UI/UX, streamlining product management, and enhancing backend operations, our client experienced a <b>40% increase in online sales within the first three months</b>.",
       "type": "filter-website",
       "projecturl": "https://victoria-prince00raj.netlify.app/",
       "client": "France",
       "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
+      "creationDate": "11 dec, 2024",
       "projectLinkTitle": "ecommerce.orbitLinker.co"
     }
   },
@@ -28,14 +28,14 @@ const portfolio = [
         "news-web/news2.png",
         "news-web/news3.png"
       ],
-      "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "punchline": "Your Daily Dose of Truth – Stay Updated!",
+      "title": "Genuine News: A Next-Gen News Platform",
+      "desc": "We developed and managed a dynamic news website covering diverse categories like <b>entertainment, politics, and current affairs</b>, delivering real-time updates with a seamless user experience. Our platform is designed for <b>high-speed performance, intuitive navigation, and mobile responsiveness</b>, ensuring readers stay informed effortlessly. With advanced content management, SEO optimization, and secure hosting, our client witnessed a <b>significant boost in traffic and audience engagement</b>. ",
       "type": "filter-website",
       "projecturl": "/",
-      "client": "France",
-      "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
+      "client": "India",
+      "Category": "Entertainment & Political News",
+      "creationDate": "13 oct, 2024",
       "projectLinkTitle": "ecommerce.orbitLinker.co"
     }
   },
@@ -48,15 +48,15 @@ const portfolio = [
         "htmlBasket-web/htmlBasketWeb2.png",
         "htmlBasket-web/htmlBasketWeb3.png"
       ],
-      "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "punchline": "Crafting Your Digital Success, One Click at a Time!",
+      "title": "HTMLBasket – Empowering Businesses with Digital Solutions",
+      "desc": "At HTMLBasket, we help businesses thrive in the digital space by building high-quality websites and apps that enhance their online presence. From e-commerce platforms to news portals, our expertise in UI/UX design, performance optimization, and secure infrastructure ensures seamless user experiences. Our solutions have driven remarkable growth for clients, including a <b>30% increase in online sales for e-commerce businesses</b> and higher traffic & engagement for news portals. Additionally, we've helped <b>improve brand credibility & visibility, establishing a strong digital presence that continues to drive success</b>. ",
       "type": "filter-website",
-      "projecturl": "/",
-      "client": "France",
+      "projecturl": "https://htmlbasket.com/",
+      "client": "India",
       "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
-      "projectLinkTitle": "ecommerce.orbitLinker.co"
+      "creationDate": "06 Jan, 2023",
+      "projectLinkTitle": "htmlbasket.com/"
     }
   },
   {
@@ -66,15 +66,15 @@ const portfolio = [
         "clothStore-app/landing.jpeg",
         "clothStore-app/clothStoreApp1.jpeg",
       ],
-      "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "punchline": "Shop Smarter, Faster, Better – Powered by React Native!",
+      "title": "Fear Of God - E-Commerce Platform",
+      "desc": "We’ve developed a high-performance e-commerce application using <b>React Native</b>, delivering a <b>fast, responsive, and user-friendly</b> experience across both iOS and Android platforms. With <b>secure payment integration, easy product browsing, and smooth checkout processes</b>, our app ensures a seamless shopping journey for customers. From designing intuitive interfaces to optimizing for performance, we’ve created an app that helps businesses <b>boost customer engagement, drive sales, and streamline operations</b>.",
       "type": "filter-app",
-      "projecturl": "/",
-      "client": "France",
+      "projecturl": "/contact.html",
+      "client": "America",
       "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
-      "projectLinkTitle": "ecommerce.orbitLinker.co"
+      "creationDate": "13 Nov, 2024",
+      "projectLinkTitle": "contact-us"
     }
   },
   {
@@ -84,15 +84,15 @@ const portfolio = [
         "store-app/landing.jpeg",
         "store-app/storeApp1.jpeg",
       ],
-      "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "punchline": "Discover What’s Hot, Shop What’s Trending – Your Personalized Shopping Experience!",
+      "title": "Smart Ai Recommendations",
+      "desc": "We’ve created an innovative e-commerce application that not only offers <b>seamless shopping</b> but also <b>personalized product recommendations</b> and highlights trending items based on user preferences and market trends. By utilizing advanced algorithms, our app ensures that customers discover the best products suited to their tastes, driving <b>higher engagement</b> and <b>increased sales</b>. Whether it’s a new launch or a trending bestseller, we make sure your customers never miss out on what’s hot! .",
       "type": "filter-app",
-      "projecturl": "/",
-      "client": "France",
+      "projecturl": "/contact.html",
+      "client": "Germeny",
       "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
-      "projectLinkTitle": "ecommerce.orbitLinker.co"
+      "creationDate": "27 dec, 2024",
+      "projectLinkTitle": "contact-us"
     }
   },
   {
@@ -102,15 +102,15 @@ const portfolio = [
         "social-app/landing.jpeg",
         "social-app/socialApp1.jpeg",
       ],
-      "punchline": "Your Ultimate Online Shopping Destination",
-      "title": "NextGen E-Commerce Platform",
-      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "punchline": "Where Connections Happen, and Communities Grow!",
+      "title": "Connecting People, Creating Communities: Your Social Media Hub",
+      "desc": "We’ve built a dynamic social media application designed to connect users, foster communities, and enhance engagement. With features like real-time messaging, content sharing, and personalized feeds, our app offers a seamless social experience. By incorporating social interaction tools and personalized content, we’ve helped clients boost <b>user engagement and community building</b>, driving <b>increased app usage</b> and <b>higher retention rates</b>. Our platform also supports targeted marketing and brand visibility, providing clients with valuable insights into user behavior and trends. ",
       "type": "filter-app",
-      "projecturl": "/",
+      "projecturl": "/contact.html",
       "client": "France",
-      "Category": "Ecommerce website",
-      "creationDate": "11 dec, 2023",
-      "projectLinkTitle": "ecommerce.orbitLinker.co"
+      "Category": "Online Communication",
+      "creationDate": "15 Jun, 2024",
+      "projectLinkTitle": "contact-us"
     }
   }
 ];

@@ -1575,14 +1575,14 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   padding-right: 50px;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 0;
   padding-right: 50px;
 }

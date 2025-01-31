@@ -3,7 +3,7 @@ const portfolio = [
     "name": "vic-ecommerce",
     "details": {
       banners: [
-        "vic-ecom/vic-ecommerce.png",
+        "vic-ecom/landing.png",
         "vic-ecom/vic-ecom1.png",
         "vic-ecom/vic-ecom2.png",
         "vic-ecom/vic-ecom3.png"
@@ -11,8 +11,102 @@ const portfolio = [
       "punchline": "Your Ultimate Online Shopping Destination",
       "title": "NextGen E-Commerce Platform",
       "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
-      "type": "filter-app",
+      "type": "filter-website",
       "projecturl": "https://victoria-prince00raj.netlify.app/",
+      "client": "France",
+      "Category": "Ecommerce website",
+      "creationDate": "11 dec, 2023",
+      "projectLinkTitle": "ecommerce.orbitLinker.co"
+    }
+  },
+  {
+    "name": "news-web",
+    "details": {
+      banners: [
+        "news-web/landing.png",
+        "news-web/news1.png",
+        "news-web/news2.png",
+        "news-web/news3.png"
+      ],
+      "punchline": "Your Ultimate Online Shopping Destination",
+      "title": "NextGen E-Commerce Platform",
+      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "type": "filter-website",
+      "projecturl": "/",
+      "client": "France",
+      "Category": "Ecommerce website",
+      "creationDate": "11 dec, 2023",
+      "projectLinkTitle": "ecommerce.orbitLinker.co"
+    }
+  },
+  {
+    "name": "htmlBasket-web",
+    "details": {
+      banners: [
+        "htmlBasket-web/landing.png",
+        "htmlBasket-web/htmlBasketWeb1.png",
+        "htmlBasket-web/htmlBasketWeb2.png",
+        "htmlBasket-web/htmlBasketWeb3.png"
+      ],
+      "punchline": "Your Ultimate Online Shopping Destination",
+      "title": "NextGen E-Commerce Platform",
+      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "type": "filter-website",
+      "projecturl": "/",
+      "client": "France",
+      "Category": "Ecommerce website",
+      "creationDate": "11 dec, 2023",
+      "projectLinkTitle": "ecommerce.orbitLinker.co"
+    }
+  },
+  {
+    "name": "clothStore-app",
+    "details": {
+      banners: [
+        "clothStore-app/landing.jpeg",
+        "clothStore-app/clothStoreApp1.jpeg",
+      ],
+      "punchline": "Your Ultimate Online Shopping Destination",
+      "title": "NextGen E-Commerce Platform",
+      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "type": "filter-app",
+      "projecturl": "/",
+      "client": "France",
+      "Category": "Ecommerce website",
+      "creationDate": "11 dec, 2023",
+      "projectLinkTitle": "ecommerce.orbitLinker.co"
+    }
+  },
+  {
+    "name": "store-app",
+    "details": {
+      banners: [
+        "store-app/landing.jpeg",
+        "store-app/storeApp1.jpeg",
+      ],
+      "punchline": "Your Ultimate Online Shopping Destination",
+      "title": "NextGen E-Commerce Platform",
+      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "type": "filter-app",
+      "projecturl": "/",
+      "client": "France",
+      "Category": "Ecommerce website",
+      "creationDate": "11 dec, 2023",
+      "projectLinkTitle": "ecommerce.orbitLinker.co"
+    }
+  },
+  {
+    "name": "social-app",
+    "details": {
+      banners: [
+        "social-app/landing.jpeg",
+        "social-app/socialApp1.jpeg",
+      ],
+      "punchline": "Your Ultimate Online Shopping Destination",
+      "title": "NextGen E-Commerce Platform",
+      "desc": "The NextGen E-Commerce Platform is a comprehensive and user-friendly online shopping solution, designed to rival the best in the industry. Packed with advanced features and intuitive designs, this platform delivers a seamless shopping experience for customers while offering robust tools for merchants. With features like dynamic product listings, secure payment gateways, personalized recommendations, advanced search, and real-time tracking, it’s the perfect combination of functionality and innovation.",
+      "type": "filter-app",
+      "projecturl": "/",
       "client": "France",
       "Category": "Ecommerce website",
       "creationDate": "11 dec, 2023",

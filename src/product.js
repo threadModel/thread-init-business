@@ -201,7 +201,7 @@ const renderProductDetails = (queryPrompt) => {
 }
 
 
-if (window.location.pathname == '/portfolio.html') {
+if (window.location.pathname == '/portfolio.html' || window.location.pathname == "/portfolio") {
   renderPortfoliPage()
 } else {
   const fullUrl = window.location.href;

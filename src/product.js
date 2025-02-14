@@ -32,7 +32,7 @@ const portfolio = [
       "title": "Genuine News: A Next-Gen News Platform",
       "desc": "We developed and managed a dynamic news website covering diverse categories like <b>entertainment, politics, and current affairs</b>, delivering real-time updates with a seamless user experience. Our platform is designed for <b>high-speed performance, intuitive navigation, and mobile responsiveness</b>, ensuring readers stay informed effortlessly. With advanced content management, SEO optimization, and secure hosting, our client witnessed a <b>significant boost in traffic and audience engagement</b>. ",
       "type": "filter-website",
-      "projecturl": "/",
+      "projecturl": "/contact.html",
       "client": "India",
       "Category": "Entertainment & Political News",
       "creationDate": "13 oct, 2024",
@@ -112,11 +112,98 @@ const portfolio = [
       "creationDate": "15 Jun, 2024",
       "projectLinkTitle": "contact-us"
     }
-  }
+  },
+  {
+    "name": "brainwave",
+    "details": {
+      banners: [
+        "brainwave/brainwave.png",
+      ],
+      "punchline": "Unlock AI's Potential, One Chat at a Time!",
+      "title": "Brainwave: AI-Powered Conversations Redefined",
+      "desc": "Brainwave is an AI-powered chat platform that enhances productivity and creativity. Experience seamless, intelligent conversations with an open AI chat app designed for efficiency, innovation, and limitless possibilities. 🚀🤖</b>.",
+      "type": "AI Chat Application",
+      "projecturl": "/contact.html",
+      "client": "England",
+      "Category": "Artificial Intelligence (AI)",
+      "creationDate": "13 Jan, 2025",
+      "projectLinkTitle": "contact-us"
+    }
+  },
+  {
+    "name": "car-rent-app",
+    "details": {
+      banners: [
+        "car-rent-app/car-rent.jpeg",
+      ],
+      "punchline": "Drive Your Dreams, Rent with Ease!",
+      "title": "Morent: Your Ultimate Car Rental Solution",
+      "desc": "Morent offers a seamless car rental experience with affordable rates, reliable service, and a vast selection of vehicles. Rent your perfect car easily and enjoy a smooth, hassle-free journey.</b>.",
+      "type": "Car Rental Platform",
+      "projecturl": "/contact.html",
+      "client": "India",
+      "Category": "Online Booking Platform",
+      "creationDate": "20 Jan, 2025",
+      "projectLinkTitle": "contact-us"
+    }
+  },
+  {
+    "name": "trip-guide",
+    "details": {
+      banners: [
+        "trip-guide/trip_guide.jpeg",
+      ],
+      "punchline": "Explore the World, Book with Ease!",
+      "title": "TripGuide: Your Ultimate Travel Companion",
+      "desc": "TripGuide simplifies your travel experience by offering seamless hotel, flight, and car rental bookings. Enjoy a hassle-free journey with the best deals and a user-friendly interface for effortless trip planning. Travel smart, book faster, and explore more!",
+      "type": "Travel Booking Platform",
+      "projecturl": "/contact.html",
+      "client": "India",
+      "Category": "Online Travel & Booking",
+      "creationDate": "20 Jan, 2024",
+      "projectLinkTitle": "contact-us"
+    }
+  },
+  {
+    "name": "hoobank",
+    "details": {
+      banners: [
+        "hooBank/hoo_bank.png",
+      ],
+      "punchline": "The Future of Digital Payments Starts Here!",
+      "title": "HooBank: Next-Gen Payment Solution",
+      "desc": "HooBank revolutionizes digital transactions with AI-powered security, seamless credit card management, and futuristic payment methods. Enjoy fast, secure, and hassle-free payments with cutting-edge financial technology designed for modern needs.",
+      "type": "FinTech Payment Platform",
+      "projecturl": "/contact.html",
+      "client": "New York",
+      "Category": "Digital Banking & Payments",
+      "creationDate": "10 Nov, 2024",
+      "projectLinkTitle": "contact-us"
+    }
+  },
+  {
+    "name": "Gpt-3",
+    "details": {
+      banners: [
+        "gpt-3/ai_website.jpeg",
+      ],
+      "punchline": "Revolutionizing AI-Powered Creativity!",
+      "title": "Innovate with GPT-3 OpenAI",
+      "desc": "Discover the power of AI-driven text generation with GPT-3. Build, create, and automate with cutting-edge machine learning technology, revolutionizing the way we interact with digital content and automation.",
+      "type": "AI & Machine Learning Platform",
+      "projecturl": "/contact.html",
+      "client": "India",
+      "Category": "Artificial Intelligence & Automation",
+      "creationDate": "02 Jan, 2025",
+      "projectLinkTitle": "contact-us"
+    }
+  },
 ];
 const renderPortfoliPage = () => {
   const renderProducts = document.getElementById('renderProducts');
+  console.log(portfolio)
   portfolio.forEach(item => {
+    console.log(item)
     const htmlContent = `
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item ${item.details.type}">
         <div>

@@ -36,7 +36,7 @@ const blogs = [
                 "facebook": "https://facebook.com/ava.cyber"
             },
             bio: "Ava is a cybersecurity strategist passionate about leveraging AI to protect digital ecosystems and empower businesses in a connected world.",
-            profile: "https://loremflickr.com/100/100/portrait,cyber"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -76,7 +76,7 @@ const blogs = [
                 "facebook": "https://facebook.com/liam.ai"
             },
             bio: "Liam is an AI enthusiast and technologist who explores the transformative impact of autonomous systems in redefining modern business operations.",
-            profile: "https://loremflickr.com/100/100/portrait,tech"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -116,7 +116,7 @@ const blogs = [
                 "facebook": "https://facebook.com/nina.web3"
             },
             bio: "Nina is a blockchain advocate and Web3 strategist focused on leveraging decentralization for sustainable and transparent business growth.",
-            profile: "https://loremflickr.com/100/100/portrait,blockchain"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -156,7 +156,7 @@ const blogs = [
                 "facebook": "https://facebook.com/ravi.ml"
             },
             bio: "Ravi is a data scientist and machine learning expert dedicated to transforming raw data into innovative business solutions.",
-            profile: "https://loremflickr.com/100/100/portrait,data"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -196,7 +196,7 @@ const blogs = [
                 "facebook": "https://facebook.com/elena.llm"
             },
             bio: "Elena is a tech communicator specializing in AI and language models, committed to exploring how these systems bridge the gap between humans and machines.",
-            profile: "https://loremflickr.com/100/100/portrait,ai"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -236,7 +236,7 @@ const blogs = [
                 "facebook": "https://facebook.com/marcus.automation"
             },
             bio: "Marcus is a tech innovator focused on automation solutions that enhance efficiency and spark digital transformation across industries.",
-            profile: "https://loremflickr.com/100/100/portrait,automation"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -276,7 +276,7 @@ const blogs = [
                 "facebook": "https://facebook.com/sofia.testing"
             },
             bio: "Sofia is a quality assurance expert who champions innovative testing strategies to ensure reliable, high-performance software solutions.",
-            profile: "https://loremflickr.com/100/100/portrait,testing"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -316,7 +316,7 @@ const blogs = [
                 "facebook": "https://facebook.com/dylan.blockchain"
             },
             bio: "Dylan is a blockchain consultant who explores how decentralized technologies can redefine traditional business models with enhanced security and transparency.",
-            profile: "https://loremflickr.com/100/100/portrait,blockchain"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     },
     {
@@ -356,7 +356,7 @@ const blogs = [
                 "facebook": "https://facebook.com/jordan.trading"
             },
             bio: "Jordan is a seasoned trader and financial analyst specializing in innovative market strategies and cutting-edge trading indicators.",
-            profile: "https://loremflickr.com/100/100/portrait,finance"
+            profile: "assets/img/testimonials/user-5.jpeg"
         }
     }
 ];
@@ -417,7 +417,7 @@ const renderRecentPostDetailsPage = (queryPrompt) => {
     const recentPostsContainer = document.getElementById("recent-posts");
     if (recentPostsContainer) {
         const sortedBlogs = blogs.filter(blog => blog.name !== queryPrompt)
-                                   .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+            .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
         const recentPostList = sortedBlogs.slice(0, 6)
             .map(blog => `
                 <div class="post-item">
@@ -486,10 +486,10 @@ const renderHomeBlogPage = () => {
                     <div class="meta">
                         <span class="post-date">
                             ${new Date(blog.publishDate).toLocaleDateString("en-US", {
-                                weekday: 'short',
-                                month: 'short',
-                                day: '2-digit'
-                            })}
+            weekday: 'short',
+            month: 'short',
+            day: '2-digit'
+        })}
                         </span>
                         <span class="post-author"> / ${blog.authoDetails.name}</span>
                     </div>

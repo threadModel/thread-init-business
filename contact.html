@@ -133,7 +133,7 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+            <form class="php-email-form" data-aos="fade-up"
               data-aos-delay="500">
               <div class="row gy-4">
 
@@ -142,11 +142,7 @@
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="email" class="form-control" name="sender_email" placeholder="Your Email" required="">
                 </div>
 
                 <div class="col-md-12">
@@ -244,8 +240,9 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script type="module" src="./src/contact.js" defer></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

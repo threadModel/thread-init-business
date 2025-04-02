@@ -34,7 +34,13 @@ import { BACKEND_URL } from "./config.js";
           },
           body: jsonStringForm,
         })
-          .then((response) => response.json())
+          .then((response) =>{ 
+            if(response.ok){
+              return response.json();
+            }else{
+              throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+          })
           .then((data) => {
             loadingIndicator.style.display = "none";
             submitButton.disabled = false;
@@ -58,7 +64,9 @@ import { BACKEND_URL } from "./config.js";
           .catch((error) => {
             loadingIndicator.style.display = "none";
             submitButton.disabled = false;
-            errorMessage.textContent = "Error submitting the form. Please check your network.";
+            // if(!errorMessage){
+              errorMessage.textContent = "Error submitting the form. Please check your network.";
+            // }
             errorMessage.style.display = "block";
             setTimeout(() => {
                 errorMessage.style.display = "none";
